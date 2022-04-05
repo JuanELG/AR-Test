@@ -1,0 +1,20 @@
+﻿2.1.0
+Changelog:
+-Deprecated Specular Material Mode (now all maps and colors are converted to the Metallic workflow).
+-Deprecated Autodesk Interactive Materials for the same reason as above.
+-Refactored FBX Material system.
+-Standard/Universal/HDRP update/fixes.
+-Fixed issues with duplicated GameObject names.
+-Fixed colliders generation.
+-Fixed FBX parent GameObject when there is only a single child.
+-Fixed FBX orientation issues.
+-Fixed PLY materials importing.
+-Removed obligatory FBX animations resampling.
+-Removed FaceBuilder sample for refactoring.
+-Added a sample on how to load extra animations.
+-Added FBX animation curves tangent importing.
+-Added visibility FBX animation curves importing.
+-Added the ResampleFrequency loader option, used to define the frequency of FBX animation curves resampling.
+-Added PLY textures importing.
+-Added gLTF blend-shape name importing.
+-Wiki: Added Blender PBR material workflow video tutorial.
